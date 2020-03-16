@@ -1,0 +1,55 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    <title>Chengjiu_Du_wk_five_hw</title>
+        
+        
+    </head>
+    
+    <body class="mysite">
+    <div class="mysite-content">
+    <div class="wrapper">
+    <h1 id="heading">User Registration Form</h1>
+
+    <form action="submit.html" id="userForm">
+        
+    <input type="username" name="username" placeholder="enter username" pattern="^(?=.*\d)(?=.*[a-zA-Z]).{8,15}$" required>
+        
+   <input type="email" name="mail" placeholder="enter email" pattern="(\b[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}\b)" required>
+                    
+   <input type="password" name="password" placeholder="enter password" pattern="^(?=.*\d)(?=.*[A-Z])\w{8,15}$" required>
+                    
+        
+   <button type="submit" form="userForm" class="button">Submit</button>
+                    
+        
+   <button class="button">Reset</button>
+                
+   </form>
+                
+   <h2>Registration Requirement:</h2>
+                
+        
+   <h3>Username must contain at least one number and be at least 8 characters long, but no more than 15 characters long.</h3> 
+                
+   <h3>Password must contain at least one number, one uppercase letter and must be least 8 characters long, but no more than 15 characters long, containing letters, numbers or the underscore.</h3>
+                
+   </div>
+   </div>
+   
+        
+   <footer class="mysite-footer">
+   
+   <p>© 2020 | Chengjiu Du</p>
+        
+   </footer>
+        
+   <script src="main.js" async defer></script>
+   
+   </body>
+   </html>
