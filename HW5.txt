@@ -1,6 +1,6 @@
 1.	What IS form validation?  form validation is when you fill out a form on a website and and are provided with feedback regarding the data that you have entered in the various form inputs.\
 
-2.	What are the two types of client-side form validation?  html5 built-in form validation and Javascript
+2.	What are the two types of client-side form validation?  html5 built-in form validation and Javascript validation.
 
 3.	What exactly is html5 built-in form validation? Describe the one attribute that needs to be added to the form input element in order for built in form validation to work at a minimum?  Html5 built-in form validation is to use html to validate user data without considering Javascript.The required attribute is the minimum requirement (pun intended!) for HTML5 form control to work. When you add the required attribute to your input element, it forces the user to input data into that field before he/she can submit the form.
 
@@ -10,7 +10,7 @@
 
 6.	What is the input attribute you would NOT want to use when creating a form with the JavaScript Constraint Validation API?  the title attribute is the input attribute you don’t want to use because it will override messages you’ve made in the JavaScript using the .setCustomValidity() method.
 
-7.	Is client-side form validation enough by itself? Why not?  The answer is no. Client-side form validation is not enough by itself because it relies on JavaScript. If users turn JavaScript off, they can easily bypass the validation. This is why validation should always be implemented on both the client and server.
+7.	Is client-side form validation enough by itself? Why not?  The answer is no. Client-side validation should not be considered an exhaustive security measure! Your apps should always perform security checks on any form-submitted data on the server-side as well as the client-side, because client-side validation is too easy to turn off, so malicious users can still easily send bad data through to your server. 
 
 8.	Why would we want to use form validation when at the same time we want them to have the best UX possible on our site? Give three reasons why we would want to use form validation on our users.  We want to get all their data in the right format. If the data is not correctly formatted, it is of no use to us!We want to protect all our users' data. We want to force our users to input secure passwords, thereby protecting the information they have shared with us.Lastly, we want to protect ourselves from malicious hackers.
 
